@@ -8,5 +8,5 @@ docker build .
 And then 
 
 ```
-docker run -d -p 8080:8080 _container name_
+docker run -d -p 8080:8080 *container* *name*
 ```
