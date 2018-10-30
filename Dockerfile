@@ -7,6 +7,7 @@ RUN apt-get update \
   && apt-get -y upgrade \
   && apt-get install -y python3-pip \
   && pip3 install apache-airflow \
+  && pip3 install cryptography \
   && airflow initdb \
   && airflow webserver -p 8080 \
   && airflow scheduler 

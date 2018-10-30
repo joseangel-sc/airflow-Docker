@@ -1,0 +1,15 @@
+# Temporal OSX files
+.DS_Store
+
+# Dependancy directories
+.ropeproject/
+# Static Files
+static/
+*.pyc
+# docs
+**/docs/*.log
+src/config.json
+build/tmp.json
+*.jpg
+*~
+\#*#
